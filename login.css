@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(to right,orange,yellow,orange);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:4vh;
+}
+
+
+.Login{
+    border: 0.3vh solid black;
+    height:30vh;
+    width:35vh;  
+    border-radius: 4%;   
+    text-align: center;
+    font-size: small; 
+}
+.Username{
+    padding:0.9vh;
+}
+.Password{
+    padding:0.9vh;
+}
+h4{
+    padding: 1vh;
+}
+a{
+    text-decoration: none;
+    color:blue;
+    font-size: 100%;
+}
+.signup{
+    transition: all 0.2s;
+}
+.signup:hover{
+    font-size: 120%;
+}

@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(to right,orange,yellow,orange);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:4vh;
+}
+
+
+.signup{
+    border: 0.1vh solid black;
+    height:67vh;
+    width:45vh;  
+    border-radius: 6%;   
+    text-align: center;
+    font-size: small; 
+}
+
+.block1,.block2,.block3,.block4{
+    padding:0.9vh;
+    font-weight: bold;
+}
+
+.gender{
+    padding:0.9vh;
+    font-weight: bold;
+}
+.submit{
+    padding:0.9vh;
+    font-weight: bold; 
+}
+.cancel{
+    padding:0.9vh;
+    font-weight: bold;
+}
+
+.login{
+    padding:0.9vh;
+    transition: all 0.2s;   
+}
+.login:hover{
+    font-size: 120%;
+}
+a{
+    color:blue;
+    font-size: 140%;
+}
+
+.submit a{
+    text-decoration: none;
+    font-size: 100%;
+    transition: all 0.2s;
+}
+.submit a:hover{
+    font-size: 120%;
+    
+}
